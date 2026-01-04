@@ -1,0 +1,13 @@
+{
+  "name": "nexus-messenger-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-server": "cd server && npm install",
+    "build": "cd client && npm install && npm run build",
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
